@@ -1,0 +1,52 @@
+<ion-view view-title="Detalles de la especie" id="vdEspecies">
+    <ion-content>
+        <div class="list card">
+        
+          <div class="item item-avatar">
+            <img src="img/info.svg">
+            <h2>{{especie.nombre}}</h2>
+            <p>{{especie.nombre_lat}}</p>
+          </div>
+        
+          <div class="item item-image">
+            <img src="{{especie.poster}}">
+          </div>
+        
+          <div class="item item-divider">
+            Cebo idóneo:
+          </div>
+          
+          <div class="item item-text-wrap">
+            {{especie.cebo}}
+          </div>
+
+          <div class="item item-divider">
+            Descripción:
+          </div>
+
+          <div class="item item-text-wrap">
+            {{especie.descrip}}
+          </div>
+
+          <div class="item item-divider">
+            Como capturar:
+          </div>
+
+          <div class="item item-text-wrap">
+            {{especie.captur}}
+          </div>
+          
+          <div class="item item-divider">
+            Tallas mínimas:
+          </div>
+
+          <div class="item item-text-wrap">
+            <p><strong>Costa de Cádiz:</strong> {{especie.talla_cad}} cm.</p>
+            <p><strong>Costa de Cantábrica:</strong> {{especie.talla_cant}} cm.</p>
+            <p><strong>Costa de Canaria:</strong> {{especie.talla_canar}} cm.</p>
+            <p><strong>Costa de Mediterránea:</strong> {{especie.talla_med}} cm.</p>
+          </div>
+        
+        </div>
+    </ion-content>
+</ion-view>

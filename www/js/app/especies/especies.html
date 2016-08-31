@@ -1,0 +1,11 @@
+<ion-view view-title="Especies" id="vEspecies">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item item-thumbnail-left" ng-repeat="especie in especies" ui-sref="app.especies-detail({especieName:'{{especie.nombre}}'})">
+              <img src="{{especie.poster}}">
+              <h2>{{especie.nombre}}</h2>
+              <p>{{especie.nombre_lat}}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

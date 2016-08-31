@@ -1,0 +1,38 @@
+<ion-view view-title="Tabla de mareas" id="vMareas">
+    <ion-content>
+        <div class="main-cnt">
+            <img class="ctr-icon" src="img/placeholder.svg" />
+            <h2>Costa de {{marea.lugar}}</h2>
+        </div>
+        <div class="mg-cnt">
+            {{marea.dia}} de {{marea.mes}} de {{marea.year}}
+        </div>
+        <div class="card">
+            <ion-list>
+                  <a class="item item-icon-left">
+                    <i class="icon ion-arrow-up-c"></i>
+                    Pleamar:    <div class="rgt">{{marea.pl1}}</div>
+                  </a>
+                  <a class="item item-icon-left">
+                    <i class="icon ion-arrow-down-c"></i>
+                    Bajamar:    <div class="rgt">{{marea.bj1}}</div>
+                  </a>
+                  <a class="item item-icon-left">
+                    <i class="icon ion-arrow-up-c"></i>
+                    Pleamar:    <div class="rgt">{{marea.pl2}}</div>
+                  </a>
+                  <a class="item item-icon-left">
+                    <i class="icon ion-arrow-down-c"></i>
+                    Bajamar:    <div class="rgt">{{marea.bj2}}</div>
+                  </a>
+                  <a class="item item-icon-left">
+                    <i class="icon ion-arrow-up-c"></i>
+                    Pleamar:    <div class="rgt">{{marea.pl3}}</div>
+                  </a>
+            </ion-list>
+        </div>
+        <ion-button class="button button-block button-positive" ui-sref="app.mfechas">
+            Buscar por fecha
+        </iion-button>
+    </ion-content>
+</ion-view>

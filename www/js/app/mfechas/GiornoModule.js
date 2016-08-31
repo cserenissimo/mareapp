@@ -1,0 +1,1 @@
+angular.module('GiornoModule', ['mareaModel', 'getGiornoModule'])

@@ -1,0 +1,182 @@
+/* Empty. Add your own CSS if you like */
+#sMenu .item-content{
+    background-color: #E1F5FE;
+}
+
+#sMenu .bMenu{
+    background-color: #E1F5FE;
+}
+
+#vMareas .rgt{
+    float: right;
+}
+
+#vMareas .ion-arrow-up-c{
+    color: green;
+}
+
+#vMareas .ion-arrow-down-c{
+    color: red;
+}
+
+#vMareas .scroll-content{
+    background-image: url('../img/bck_tMareas.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#vMareas .card{
+    width: calc(100% - 20px);
+}
+
+#vMareas .main-cnt{
+    margin: 10px;
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#vMareas .mg-cnt{
+    float: left;
+    width: 100%;
+    margin-left: 16px;
+    margin-bottom: 7px;
+    font-size: 12pt;
+}
+
+#vMareas .ctr-icon{
+    width: 7%;
+    height: auto;
+    float: left;
+    margin: 6px;
+}
+
+#vdEspecies .main-cnt{
+    margin: 10px;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#vdEspecies .mg-cnt{
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 7px;
+    font-size: 12pt;
+}
+
+#vdEspecies .ctr-icon{
+    width: 7%;
+    height: auto;
+    float: left;
+    margin: 7px;
+}
+
+#vdEspecies .item-text-wrap{
+    text-align: justify;
+}
+
+#vdPesca .item-text-wrap{
+    text-align: justify;
+}
+
+#vMareas h2{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#vEspecies .item-content{
+    background-color: #FFFFFF;
+}
+
+#vPesca .item-content{
+    background-color: #FFFFFF;
+}
+
+#vdEspecies .scroll-content{
+    background-image: url('../img/bck_tEspecies.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#vdPesca .scroll-content{
+    background-image: url('../img/bck_tMareas.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
+
+#vMareas .button{
+    width: calc(100% - 21px);
+    float: left;
+    margin: 10px;
+}
+
+#vFechas .scroll-content{
+    background-image: url('../img/bck_tMareas.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#vFechas .button{
+    margin: 0;
+}
+
+#vFechas .rgt{
+    float: right;
+}
+
+#vFechas .ion-arrow-up-c{
+    color: green;
+}
+
+#vFechas .ion-arrow-down-c{
+    color: red;
+}
+#vFechas .card{
+    width: calc(100% - 20px);
+}
+
+#vFechas .main-cnt{
+    margin: 10px;
+    float: left;
+    width: 90%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#vFechas .mg-cnt{
+    float: left;
+    width: 100%;
+    margin-left: 16px;
+    margin-bottom: 7px;
+    font-size: 12pt;
+}
+
+#vFechas .ctr-icon{
+    width: 8%;
+    height: auto;
+    float: left;
+    margin: 7px;
+}
+
+#vFechas h2{
+    margin: 0;
+}
+
+#vFechas .const{
+    width: 65vw;
+    height: auto;
+    padding: 15px;
+}

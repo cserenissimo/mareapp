@@ -1,0 +1,11 @@
+<ion-view view-title="Negocios locales" id="vPesca">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item item-thumbnail-left" ng-repeat="negocio in negocios" ui-sref="app.negocio-detail({negocioName:'{{negocio.nombre}}'})">
+              <img src="{{negocio.logo}}">
+              <h2>{{negocio.nombre}}</h2>
+              <p>{{negocio.ciudad}} ({{negocio.provincia}})</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

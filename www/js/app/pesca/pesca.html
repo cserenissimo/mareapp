@@ -1,0 +1,11 @@
+<ion-view view-title="Zonas de pesca" id="vPesca">
+    <ion-content>
+        <ion-list>
+            <ion-item class="item item-thumbnail-left" ng-repeat="pesca in pescas" ui-sref="app.pesca-detail({pescaName:'{{pesca.nombre}}'})">
+              <img src="{{pesca.poster}}">
+              <h2>{{pesca.nombre}}</h2>
+              <p>{{pesca.ciudad}} ({{pesca.provincia}})</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    
+    <script src="js/ads.js"></script>
+    
+    <script type="text/javascript" src="js/common/models/mareaModel.js"></script>
+    <script type="text/javascript" src="js/common/services/getMareasModule.js"></script>
+    <script type="text/javascript" src="js/common/models/especieModel.js"></script>
+    <script type="text/javascript" src="js/common/services/getEspeciesModule.js"></script>
+    <script type="text/javascript" src="js/common/models/pescaModel.js"></script>
+    <script type="text/javascript" src="js/common/services/getPescaModule.js"></script>
+    <script type="text/javascript" src="js/common/models/negociosModel.js"></script>
+    <script type="text/javascript" src="js/common/services/getNegocioModule.js"></script>
+    <script type="text/javascript" src="js/common/services/getGiornoModule.js"></script>
+    
+    <script type="text/javascript" src="js/app/main/MareasModule.js"></script>
+    <script type="text/javascript" src="js/app/main/MareasController.js"></script>
+    <script type="text/javascript" src="js/app/especies/EspeciesModule.js"></script>
+    <script type="text/javascript" src="js/app/especies/EspeciesController.js"></script>
+    <script type="text/javascript" src="js/app/especies/EspeciesDetailController.js"></script>
+    <script type="text/javascript" src="js/app/pesca/PescaModule.js"></script>
+    <script type="text/javascript" src="js/app/pesca/PescaController.js"></script>
+    <script type="text/javascript" src="js/app/pesca/PescaDetailController.js"></script>
+    <script type="text/javascript" src="js/app/negocio/NegocioModule.js"></script>
+    <script type="text/javascript" src="js/app/negocio/NegocioController.js"></script>
+    <script type="text/javascript" src="js/app/negocio/NegocioDetailController.js"></script>
+    <script type="text/javascript" src="js/app/mfechas/GiornoModule.js"></script>
+    <script type="text/javascript" src="js/app/mfechas/GiornoController.js"></script>
+  </head>
+
+  <body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>
