@@ -19,6 +19,27 @@ angular.module('starter', ['ionic', 'MareasModule', 'EspeciesModule', 'PescaModu
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+    
+    var admobApp = angular.module('mareapp', ['ionic'])
+    .run(function($ionicPlatform) {
+        $ionicPlatform.ready(function() {
+            if (window.device && typeof AdMob !== "undefined") {
+                var admob_key = device.platform == "Android" ? "ca-app-pub-2440129720714268/2709403539" : "ca-app-pub-2440129720714268/2709403539";
+    
+                AdMob.createBanner( {
+                  adId: admob_key,
+                  position: AdMob.AD_POSITION.BOTTOM_CENTER,
+                  isTesting: false,
+                  adSize: 'SMART_BANNER',
+                  success: function(){
+                  },
+                  error: function(){
+                    console.log('failed to create banner');
+                  }
+                });
+            }
+        });
+    });
   });
 })
 
