@@ -8,8 +8,7 @@ angular.module('getEspeciesModule', ['especieModel'])
         'Mojarra',
         'Robalo',
         'Sargo',
-        'Verrugato',
-        'Corvina'
+        'Verrugato'
 ])
 
 .constant('especieApi', (function(){
